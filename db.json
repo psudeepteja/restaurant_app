@@ -1,0 +1,10 @@
+{
+  "restaurants": [
+    {
+      "id": "e8cd",
+      "name": "KFC",
+      "description": "Fresh fried Chicken",
+      "location": "Nellore"
+    }
+  ]
+}
