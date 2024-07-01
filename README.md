@@ -1,18 +1,20 @@
+1. Clone the repository.
 
-In the project directory, you can run:
+2. Navigate to the project directory.
 
-### `npm start`
+3. Install the necessary dependencies by running:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-Add new Terminal and Install required dependencies:
+4. Set up the mock backend using json-server. If you do not have json-server installed, you can install it globally with:
 
 npm install -g json-server
 
-Run the Command:
+5. Start the mock backend server by running the following command in a terminal:
 
 json-server --watch db.json --port 5000
+
+6. In another terminal, start the React application by running:
+
+npm start
+
